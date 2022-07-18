@@ -29,13 +29,13 @@ img {
     justify-content: space-between;
 }
 
-.container-60 {
-    max-width: 60%;
+.container-65 {
+    max-width: 65%;
     margin: 0 auto;
 }
 
-.container-50 {
-    max-width: 50%;
+.container-55 {
+    max-width: 55%;
     margin: 0 auto;
 }
 
@@ -45,6 +45,10 @@ img {
 
 .text-center {
     text-align: center;
+}
+
+h2 {
+    font-size: 2.8rem;
 }
 
 
@@ -77,10 +81,6 @@ img {
     padding-top: 180px;
 }
 
-.business-plan .container-50 h2 {
-    font-size: 2.8rem;
-}
-
 #checkbox-container {
     margin: 55px 0px;
 }
@@ -102,9 +102,33 @@ img {
     background-color: blueviolet;
 }
 
+.dropbox-partner .container-50 {
+    padding-top: 55px;
+}
+
+.partner-image {
+    flex-basis: 60%;
+}
+
+.partner-contact {
+    flex-basis: calc(40% - 40px);
+    margin-left: 40px;
+}
+
 .dropbox-business {
     height: 2000px;
     background-color: chartreuse;
+}
+
+.cards-container {
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+.card {
+    flex-basis: calc(100%/3 - 20px);
+    background-color: yellow;
+    height: 400px;
 }
 
 .faq {
