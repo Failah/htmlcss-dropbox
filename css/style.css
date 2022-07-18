@@ -29,10 +29,63 @@ img {
     justify-content: space-between;
 }
 
+.container-60 {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
 
 /* contents */
 
 .header-menu {
     position: fixed;
     width: 100%;
+    background-color: white;
+}
+
+.top-trial {
+    background-color: #b4d0e7;
+    height: 700px;
+    padding-top: 120px;
+}
+
+.top-trial h1 {
+    font-size: 4.2rem;
+    font-weight: 900;
+}
+
+.trial-proposal div {
+    flex-basis: 50%;
+}
+
+.business-plan {
+    height: 1200px;
+    background-color: aqua;
+}
+
+.dropbox-partner {
+    height: 800px;
+    background-color: blueviolet;
+}
+
+.dropbox-business {
+    height: 2000px;
+    background-color: chartreuse;
+}
+
+.faq {
+    background-color: white;
+    height: 700px;
+}
+
+.bottom-footer {
+    background-color: #000000;
+    height: 500px;
+}
+
+
+/* debug */
+
+.top-trial .container-60 {
+    background-color: pink;
 }
