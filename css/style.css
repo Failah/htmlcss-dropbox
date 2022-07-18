@@ -171,6 +171,21 @@ h2 {
 
 .bottom-footer {
     background-color: #000000;
+    padding: 120px 0px 100px 0px;
+    color: white;
+}
+
+.footer-links {
+    flex-basis: calc(100%/5);
+}
+
+.footer-hr-box {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#footer-hr {
+    max-width: 80px;
 }
 
 
