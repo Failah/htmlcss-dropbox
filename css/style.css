@@ -62,7 +62,6 @@ h2 {
 
 .top-trial {
     background-color: #b4d0e7;
-    height: 700px;
     padding-top: 120px;
 }
 
@@ -76,9 +75,8 @@ h2 {
 }
 
 .business-plan {
-    height: 1500px;
     background-color: white;
-    padding-top: 180px;
+    padding: 180px 0px 55px 0px;
 }
 
 #checkbox-container {
@@ -98,12 +96,11 @@ h2 {
 }
 
 .dropbox-partner {
-    height: 800px;
     background-color: blueviolet;
 }
 
-.dropbox-partner .container-50 {
-    padding-top: 55px;
+.dropbox-partner .container-55 {
+    padding: 55px 0px;
 }
 
 .partner-image {
@@ -116,8 +113,8 @@ h2 {
 }
 
 .dropbox-business {
-    height: 2000px;
     background-color: chartreuse;
+    padding-top: 55px;
 }
 
 .cards-container {
@@ -131,14 +128,49 @@ h2 {
     height: 400px;
 }
 
+#team-numbers {
+    margin-top: 180px;
+    margin-bottom: 80px;
+    max-width: 70%;
+}
+
+.sponsor-container {
+    margin-top: 100px;
+}
+
+.sponsor-box {
+    max-width: 40%;
+}
+
+.sponsor {
+    width: 50%;
+    height: 50%;
+}
+
+.bottom-free-trial {
+    background-color: #b4d0e7;
+}
+
+#bottom-trial {
+    padding: 150px 0px;
+}
+
+#bottom-trial h2 {
+    flex-basis: calc(50%);
+}
+
+#bottom-trial button {
+    height: 30px;
+    margin-top: 5px;
+}
+
 .faq {
     background-color: white;
-    height: 700px;
+    padding: 150px 0px;
 }
 
 .bottom-footer {
     background-color: #000000;
-    height: 500px;
 }
 
 
