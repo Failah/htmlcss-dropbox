@@ -39,6 +39,10 @@ img {
     justify-content: space-around;
 }
 
+.align-start {
+    align-items: flex-start;
+}
+
 .row-gap-12 {
     row-gap: 12px;
 }
@@ -93,14 +97,18 @@ h3 {
     font-size: 1.5rem;
 }
 
-/* h4 {
-    margin: 20px 0px;
-} */
-
 .blue-button {
     background-color: #0061ff;
     border: none;
     color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.white-button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
     padding: 10px 20px;
     font-size: 1rem;
 }
@@ -241,6 +249,17 @@ h3 {
 .partner-contact {
     flex-basis: calc(40% - 40px);
     margin-left: 40px;
+    padding-right: 20px;
+}
+
+.partner-contact h3 {
+    margin-top: 50px;
+    line-height: 1.8rem;
+}
+
+.partner-contact p {
+    line-height: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .dropbox-business {
