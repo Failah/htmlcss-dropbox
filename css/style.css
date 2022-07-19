@@ -89,21 +89,51 @@ h2 {
     font-size: 1rem;
 }
 
+#db-logo {
+    padding-top: 5px;
+}
+
 /* /header */
 
 
 .top-trial {
     background-color: #b4d0e7;
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 .top-trial h1 {
-    font-size: 4.2rem;
+    font-size: 4.5rem;
     font-weight: 900;
 }
 
-.trial-proposal div {
-    flex-basis: 50%;
+.trial-proposal div:first-child {
+    flex-basis: 30%;
+}
+
+.trial-proposal div:last-child {
+    flex-basis: 70%;
+}
+
+.trial-text {
+    margin-top: 75px;
+}
+
+.trial-text p {
+    line-height: 1.6rem;
+}
+
+.trial-text button.blue-button {
+    margin: 25px 0px;
+}
+
+#down-arrow {
+    padding-top: 100px;
+    font-size: 3rem;
+}
+
+#trial-img {
+    position: relative;
+    top: 75px;
 }
 
 .business-plan {
