@@ -444,6 +444,14 @@ h3 {
     flex-basis: calc(100%/5);
 }
 
+.footer-links h3 {
+    padding-bottom: 30px;
+}
+
+.footer-links p {
+    padding-bottom: 20px;
+}
+
 .footer-hr-box {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -451,6 +459,10 @@ h3 {
 
 #footer-hr {
     max-width: 80px;
+}
+
+#language-select {
+    color: #999999;
 }
 
 /* /footer section */
