@@ -416,6 +416,24 @@ h3 {
     padding: 150px 0px;
 }
 
+.faq h2 {
+    margin-bottom: 70px;
+}
+
+.question {
+    height: 100px;
+    align-items: center;
+}
+
+.question p {
+    margin-right: 30px;
+}
+
+/* /faq section */
+
+
+/* footer section */
+
 .bottom-footer {
     background-color: #000000;
     padding: 120px 0px 100px 0px;
@@ -435,9 +453,4 @@ h3 {
     max-width: 80px;
 }
 
-
-/* debug */
-
-.top-trial .container-60 {
-    background-color: pink;
-}
+/* /footer section */
