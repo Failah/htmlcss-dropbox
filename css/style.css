@@ -120,6 +120,7 @@ h3 {
 
 .header-menu {
     position: fixed;
+    z-index: 5;
     width: 100%;
     background-color: white;
     padding: 26px 10px 26px 0px;
