@@ -13,17 +13,19 @@
     <!-- top header -->
     <header>
         <div class="header-menu flex wrap space-between">
-            <div class="flex warp">
-                <div>DROPBOX</div>
-                <p>Perchè Dropbox</p>
-                <p>Funzioni</p>
-                <p>Piani e Prezzi</p>
+            <div class="flex wrap col-gap-45">
+                <div>
+                    <img src="img/logo-small.png" alt="Dropbox Logo">
+                </div>
+                <button class="head-button">Perchè Dropbox</button>
+                <button class="head-button">Funzioni</button>
+                <button class="head-button">Piani e prezzi</button>
             </div>
-            <div class="flex wrap">
-                <p>Supporto</p>
-                <p>Contatta l'ufficio vendite</p>
-                <p>Accedi</p>
-                <button>
+            <div class="flex wrap col-gap-45">
+                <button class="head-button">Supporto</button>
+                <button class="head-button">Contatta l'ufficio vendite</button>
+                <button class="head-button">Accedi</button>
+                <button class="blue-button">
                     Inizia
                 </button>
             </div>
@@ -66,8 +68,10 @@
             <div class="container-55">
                 <h2>Trova il piano business che fa per te</h2>
                 <div id="checkbox-container">
-                    <input type="checkbox">Fatturazione mensile
-                    <input type="checkbox">Fatturazione annuale
+                    <input id="month-pay" type="radio" name="payment">
+                    <label for="month-pay">Fatturazione mensile</label>
+                    <input id="year-pay" type="radio" name="payment">
+                    <label for="year-pay">Fatturazione annuale</label>
                 </div>
                 <div class="flex wrap space-between">
                     <div class="plan-choice grey-border"></div>
@@ -146,15 +150,35 @@
             </div>
             <div class="sponsor-container flex wrap">
                 <div class="sponsor-box flex wrap">
-                    <div class="sponsor">
+                    <div id="designit-bg" class="sponsor flex">
                         <img src="img/designit.svg" alt="designit">
                     </div>
+                    <div id="arizona-bg" class="sponsor flex">
+                        <img src="img/arizona_state_university.svg" alt="designit">
+                    </div>
+                    <div id="florida-bg" class="sponsor flex">
+                        <img src="img/university_of_florida.svg" alt="designit">
+                    </div>
+                    <div id="topps-bg" class="sponsor flex">
+                        <img src="img/topps.svg" alt="designit">
+                    </div>
                 </div>
-                <div>
+                <div id="center-sponsor-box" class="grow">
 
                 </div>
-                <div class="sponsor-box">
-
+                <div class="sponsor-box flex wrap">
+                    <div id="world-bg" class="sponsor flex">
+                        <img src="img/world_bicycle_relief.svg" alt="designit">
+                    </div>
+                    <div id="hearst-bg" class="sponsor flex">
+                        <img src="img/hearst_corp.svg" alt="designit">
+                    </div>
+                    <div id="lonely-bg" class="sponsor flex">
+                        <img src="img/lonely_planet.svg" alt="designit">
+                    </div>
+                    <div id="clear-bg" class="sponsor flex">
+                        <img src="img/clear_channel.svg" alt="designit">
+                    </div>
                 </div>
             </div>
             <div class="bottom-free-trial">
@@ -251,7 +275,9 @@
                     <p>Funzioni</p>
                 </div>
                 <div class="footer-links">
-                    <h3>Community</h3>
+                    <h3>
+                        Community
+                    </h3>
                     <p>Applicazione desktop</p>
                     <p>Perchè Dropbox</p>
                     <p>Piani</p>
