@@ -234,6 +234,11 @@ h3 {
     padding: 30px;
 }
 
+/* /business plan section */
+
+
+/* dropbox partner section */
+
 .dropbox-partner {
     background-color: white;
 }
@@ -262,20 +267,27 @@ h3 {
     margin-bottom: 20px;
 }
 
+/* /dropbox partner section */
+
+
+/* dropbox business section */
+
 .dropbox-business {
-    background-color: chartreuse;
     padding-top: 55px;
 }
 
 .cards-container {
     row-gap: 40px;
     column-gap: 20px;
+    margin-top: 50px;
 }
 
 .card {
     flex-basis: calc(100%/3 - 20px);
-    background-color: yellow;
-    height: 400px;
+}
+
+.card h3 {
+    margin-bottom: 40px;
 }
 
 #team-numbers {
