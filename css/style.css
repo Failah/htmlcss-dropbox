@@ -478,6 +478,7 @@ h3 {
 .question {
     height: 100px;
     align-items: center;
+    border-top: 1px #9a9a9a solid;
 }
 
 .question p {
